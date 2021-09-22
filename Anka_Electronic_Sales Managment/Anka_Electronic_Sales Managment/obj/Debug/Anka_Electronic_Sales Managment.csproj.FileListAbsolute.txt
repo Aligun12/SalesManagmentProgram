@@ -1,0 +1,34 @@
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Anka_Electronic_Sales Managment.exe.config
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Anka_Electronic_Sales Managment.exe
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Anka_Electronic_Sales Managment.pdb
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales Managment.csproj.AssemblyReference.cache
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales_Managment.Form1.resources
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales_Managment.Properties.Resources.resources
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales Managment.csproj.GenerateResource.cache
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales Managment.csproj.CoreCompileInputs.cache
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales Managment.exe
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales Managment.pdb
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales_Managment.Form2.resources
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales_Managment.Form3.resources
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales_Managment.Form4.resources
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales_Managment.Form5.resources
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\obj\Debug\Anka_Electronic_Sales Managment.csproj.CopyComplete
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Handlebars.dll
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Handlebars.xml
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Select.HtmlToPdf.dll
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Select.HtmlToPdf.xml
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Select.Html.dep
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Buffers.dll
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Buffers.xml
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Aligun\Desktop\C#Projects\Anka_Electronic_Sales Managment\Anka_Electronic_Sales Managment\bin\Debug\System.Threading.Tasks.Extensions.xml

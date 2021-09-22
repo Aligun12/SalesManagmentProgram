@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" type="text/css" href="css/Fatura.css"> </head>
+    <body>
+        <div class="baslik">
+            <img id=cizgi2 src="cizgi2.png" alt="">
+            <img id=logo src="img/f_logo.png" alt="">
+            <p id = istakipformu>İŞ TAKİP FORMU</p>
+            <p id=tarih>TARİH : </p>
+            <p id=tarih2>{{dateFormat DateDelivered "dd/MM/yyyy"}}</p>
+            <p id=adres>ADRES : Erler mahallesi<br>
+                Eskişehir Yolu, 2717.Sok<br>
+                No:6/A, Anka Oto Elektronik,<br>
+                06790 Etimesgut / ANKARA</p>
+            <img id=cizgi src="img/cizgi.png" alt="">
+        </div>
+        <div class="bilgiler">
+            <img id=fligran src="img/fligran.png" alt="">
+            <div>
+                <p id=musteribaslik>MÜŞTERİ BİLGİLERİ</p>
+                <p id=nsurname>Adı Soyadı :</p>
+                <p id=isim>{{n_surname}}</p>
+                <p id=telno>Telefon Numarası : </p>
+                <p id=telno2>{{tel_no}}</p>
+                <p id=plaka>Araç Plakası : </p>
+                <p id=plaka2>{{plaka}}</p>
+                <p id=aracsasino>Araç Şasi No : </p>
+                <p id=aracsasino2>{{sasino}}</p>
+                <p id=eposta>E-Posta : </p>
+                <p id=eposta2>{{email}}</p>
+            </div>
+            <div>
+                <p id=urunbaslik>ÜRÜN BİLGİLERİ</p>
+                <p id=urunserino>Ürün Seri Numarası :</p>
+                <p id=urunserino2>{{userinu}}</p>
+                <p id=urunmodeli>Ürün Modeli : </p>
+                <p id=urunmodeli2>{{umodel}}</p>
+                <p id=garanti>Garanti Süresi : </p>
+                <p id=garanti2>{{garantis}}</p>
+                <p id=urunadet>Ürün Adeti : </p>
+                <p id=urunadet2>{{urunadeti}}</p>
+                <p id=notlar>Notlar : ........................................................................................................................<br>
+                    ......................................................................................................................................<br>
+                    ......................................................................................................................................<br>
+                    ......................................................................................................................................<br>
+                    ......................................................................................................................................<br>
+                    ......................................................................................................................................<br>
+                    ......................................................................................................................................<br>
+                    ...................................................................................................................................... </p>
+                <p id=notlar2>{{not}}</p>
+            </div>
+            <p id=gonderen>GÖNDEREN</p>
+            <p id=tutar>TUTAR</p>
+            <p id=gonderenkisi>{{gonderenk}}</p>
+            <p id=tutar2>{{toplamtutar}}</p>
+            <img id=cizgi3 src="img/cizgi3" alt="">
+        </div>
+    </body>
+</html>
