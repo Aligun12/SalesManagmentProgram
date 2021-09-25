@@ -49,7 +49,7 @@ namespace Anka_Electronic_Sales_Managment
             string tarih = DateTime.Now.ToString("dd_MM_yyyy");
             excelaktarma(saat + " " + tarih, uruntablo);
             excelaktarma(saat +" "+tarih,musteritablo);
-            kontrol();
+            
 
         }
         public void kontrol()
@@ -763,6 +763,17 @@ namespace Anka_Electronic_Sales_Managment
             }
             
         }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            kontrol();
+        }
+
+        private void m_ad_TabIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void m_formcikart_Click(object sender, EventArgs e)
         {
             if (m_ad.Text == "" || m_soyad.Text == "" || m_plaka.Text == "" || m_sasino.Text == "" || m_telno.Text == "" || m_userino.Text == "" || m_satisfiyat.Text == "")

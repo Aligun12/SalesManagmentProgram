@@ -65,5 +65,10 @@ namespace Anka_Electronic_Sales_Managment
 
             
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            this.AcceptButton = giris_buton;
+        }
     }
 }

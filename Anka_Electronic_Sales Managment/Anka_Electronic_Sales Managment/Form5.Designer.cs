@@ -29,6 +29,7 @@ namespace Anka_Electronic_Sales_Managment
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.usr_name = new System.Windows.Forms.TextBox();
             this.sifre_text = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -127,6 +128,7 @@ namespace Anka_Electronic_Sales_Managment
             this.Controls.Add(this.sifre_text);
             this.Controls.Add(this.usr_name);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";

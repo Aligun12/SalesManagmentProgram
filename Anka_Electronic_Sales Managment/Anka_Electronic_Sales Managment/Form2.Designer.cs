@@ -29,6 +29,7 @@ namespace Anka_Electronic_Sales_Managment
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.u_modeli_ekle_2 = new System.Windows.Forms.TextBox();
             this.u_model_ekle_1 = new System.Windows.Forms.Label();
             this.u_modeli_ekle = new System.Windows.Forms.Button();
@@ -103,6 +104,7 @@ namespace Anka_Electronic_Sales_Managment
             this.Controls.Add(this.u_model_ekle_1);
             this.Controls.Add(this.u_modeli_ekle_2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form2";

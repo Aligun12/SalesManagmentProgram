@@ -153,7 +153,7 @@ namespace Anka_Electronic_Sales_Managment
             this.u_excel.Location = new System.Drawing.Point(15, 405);
             this.u_excel.Name = "u_excel";
             this.u_excel.Size = new System.Drawing.Size(225, 28);
-            this.u_excel.TabIndex = 23;
+            this.u_excel.TabIndex = 10;
             this.u_excel.Text = "EXCELE AKTAR";
             this.u_excel.UseVisualStyleBackColor = true;
             this.u_excel.Click += new System.EventHandler(this.u_excel_Click);
@@ -185,7 +185,7 @@ namespace Anka_Electronic_Sales_Managment
             this.u_duzenle.Location = new System.Drawing.Point(169, 335);
             this.u_duzenle.Name = "u_duzenle";
             this.u_duzenle.Size = new System.Drawing.Size(71, 64);
-            this.u_duzenle.TabIndex = 20;
+            this.u_duzenle.TabIndex = 9;
             this.u_duzenle.Text = "DÜZENLE";
             this.u_duzenle.UseVisualStyleBackColor = true;
             this.u_duzenle.Click += new System.EventHandler(this.u_duzenle_Click);
@@ -195,7 +195,7 @@ namespace Anka_Electronic_Sales_Managment
             this.u_sil.Location = new System.Drawing.Point(92, 335);
             this.u_sil.Name = "u_sil";
             this.u_sil.Size = new System.Drawing.Size(71, 64);
-            this.u_sil.TabIndex = 19;
+            this.u_sil.TabIndex = 8;
             this.u_sil.Text = "SİL";
             this.u_sil.UseVisualStyleBackColor = true;
             this.u_sil.Click += new System.EventHandler(this.u_sil_Click);
@@ -205,7 +205,7 @@ namespace Anka_Electronic_Sales_Managment
             this.u_ekle.Location = new System.Drawing.Point(15, 335);
             this.u_ekle.Name = "u_ekle";
             this.u_ekle.Size = new System.Drawing.Size(71, 64);
-            this.u_ekle.TabIndex = 13;
+            this.u_ekle.TabIndex = 7;
             this.u_ekle.Text = "EKLE";
             this.u_ekle.UseVisualStyleBackColor = true;
             this.u_ekle.Click += new System.EventHandler(this.u_ekle_Click);
@@ -248,7 +248,7 @@ namespace Anka_Electronic_Sales_Managment
             this.u_table.Location = new System.Drawing.Point(274, 28);
             this.u_table.Name = "u_table";
             this.u_table.Size = new System.Drawing.Size(974, 513);
-            this.u_table.TabIndex = 7;
+            this.u_table.TabIndex = 11;
             this.u_table.RowHeaderMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.u_table_RowHeaderMouseDoubleClick);
             // 
             // u_bfiyat
@@ -383,7 +383,7 @@ namespace Anka_Electronic_Sales_Managment
             this.m_formcikart.Location = new System.Drawing.Point(5, 501);
             this.m_formcikart.Name = "m_formcikart";
             this.m_formcikart.Size = new System.Drawing.Size(225, 35);
-            this.m_formcikart.TabIndex = 33;
+            this.m_formcikart.TabIndex = 14;
             this.m_formcikart.Text = "FORM AL";
             this.m_formcikart.UseVisualStyleBackColor = true;
             this.m_formcikart.Click += new System.EventHandler(this.m_formcikart_Click);
@@ -402,7 +402,7 @@ namespace Anka_Electronic_Sales_Managment
             this.m_ekstranot.Location = new System.Drawing.Point(14, 296);
             this.m_ekstranot.Name = "m_ekstranot";
             this.m_ekstranot.Size = new System.Drawing.Size(216, 88);
-            this.m_ekstranot.TabIndex = 31;
+            this.m_ekstranot.TabIndex = 9;
             this.m_ekstranot.Text = "";
             // 
             // label25
@@ -420,14 +420,14 @@ namespace Anka_Electronic_Sales_Managment
             this.m_email.Location = new System.Drawing.Point(118, 161);
             this.m_email.Name = "m_email";
             this.m_email.Size = new System.Drawing.Size(100, 20);
-            this.m_email.TabIndex = 29;
+            this.m_email.TabIndex = 5;
             // 
             // m_excel
             // 
             this.m_excel.Location = new System.Drawing.Point(5, 460);
             this.m_excel.Name = "m_excel";
             this.m_excel.Size = new System.Drawing.Size(225, 35);
-            this.m_excel.TabIndex = 28;
+            this.m_excel.TabIndex = 13;
             this.m_excel.Text = "EXCELE AKTAR";
             this.m_excel.UseVisualStyleBackColor = true;
             this.m_excel.Click += new System.EventHandler(this.m_excel_Click);
@@ -459,7 +459,7 @@ namespace Anka_Electronic_Sales_Managment
             this.m_satisfiyat.Location = new System.Drawing.Point(122, 215);
             this.m_satisfiyat.Name = "m_satisfiyat";
             this.m_satisfiyat.Size = new System.Drawing.Size(102, 20);
-            this.m_satisfiyat.TabIndex = 26;
+            this.m_satisfiyat.TabIndex = 7;
             this.m_satisfiyat.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_alisfiyat_KeyPress);
             // 
             // label14
@@ -477,14 +477,14 @@ namespace Anka_Electronic_Sales_Managment
             this.m_userino.Location = new System.Drawing.Point(106, 187);
             this.m_userino.Name = "m_userino";
             this.m_userino.Size = new System.Drawing.Size(121, 21);
-            this.m_userino.TabIndex = 24;
+            this.m_userino.TabIndex = 6;
             // 
             // m_edit
             // 
             this.m_edit.Location = new System.Drawing.Point(159, 390);
             this.m_edit.Name = "m_edit";
             this.m_edit.Size = new System.Drawing.Size(71, 64);
-            this.m_edit.TabIndex = 23;
+            this.m_edit.TabIndex = 12;
             this.m_edit.Text = "DÜZENLE";
             this.m_edit.UseVisualStyleBackColor = true;
             this.m_edit.Click += new System.EventHandler(this.m_edit_Click);
@@ -503,7 +503,7 @@ namespace Anka_Electronic_Sales_Managment
             this.m_sil.Location = new System.Drawing.Point(82, 390);
             this.m_sil.Name = "m_sil";
             this.m_sil.Size = new System.Drawing.Size(71, 64);
-            this.m_sil.TabIndex = 22;
+            this.m_sil.TabIndex = 11;
             this.m_sil.Text = "SİL";
             this.m_sil.UseVisualStyleBackColor = true;
             this.m_sil.Click += new System.EventHandler(this.m_sil_Click);
@@ -522,7 +522,7 @@ namespace Anka_Electronic_Sales_Managment
             this.m_ekle.Location = new System.Drawing.Point(5, 390);
             this.m_ekle.Name = "m_ekle";
             this.m_ekle.Size = new System.Drawing.Size(71, 64);
-            this.m_ekle.TabIndex = 21;
+            this.m_ekle.TabIndex = 10;
             this.m_ekle.Text = "EKLE";
             this.m_ekle.UseVisualStyleBackColor = true;
             this.m_ekle.Click += new System.EventHandler(this.m_ekle_Click);
@@ -572,7 +572,7 @@ namespace Anka_Electronic_Sales_Managment
             this.m_tablo.Location = new System.Drawing.Point(258, 30);
             this.m_tablo.Name = "m_tablo";
             this.m_tablo.Size = new System.Drawing.Size(962, 576);
-            this.m_tablo.TabIndex = 6;
+            this.m_tablo.TabIndex = 15;
             this.m_tablo.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.m_tablo_RowHeaderMouseClick);
             // 
             // m_soyad
@@ -580,7 +580,7 @@ namespace Anka_Electronic_Sales_Managment
             this.m_soyad.Location = new System.Drawing.Point(118, 55);
             this.m_soyad.Name = "m_soyad";
             this.m_soyad.Size = new System.Drawing.Size(100, 20);
-            this.m_soyad.TabIndex = 5;
+            this.m_soyad.TabIndex = 1;
             this.m_soyad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_soyad_KeyPress);
             // 
             // m_satistarih
@@ -588,14 +588,14 @@ namespace Anka_Electronic_Sales_Managment
             this.m_satistarih.Location = new System.Drawing.Point(25, 257);
             this.m_satistarih.Name = "m_satistarih";
             this.m_satistarih.Size = new System.Drawing.Size(200, 20);
-            this.m_satistarih.TabIndex = 4;
+            this.m_satistarih.TabIndex = 8;
             // 
             // m_telno
             // 
             this.m_telno.Location = new System.Drawing.Point(118, 135);
             this.m_telno.Name = "m_telno";
             this.m_telno.Size = new System.Drawing.Size(100, 20);
-            this.m_telno.TabIndex = 3;
+            this.m_telno.TabIndex = 4;
             this.m_telno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_telno_KeyPress);
             // 
             // m_sasino
@@ -603,14 +603,14 @@ namespace Anka_Electronic_Sales_Managment
             this.m_sasino.Location = new System.Drawing.Point(118, 107);
             this.m_sasino.Name = "m_sasino";
             this.m_sasino.Size = new System.Drawing.Size(100, 20);
-            this.m_sasino.TabIndex = 2;
+            this.m_sasino.TabIndex = 3;
             // 
             // m_plaka
             // 
             this.m_plaka.Location = new System.Drawing.Point(118, 81);
             this.m_plaka.Name = "m_plaka";
             this.m_plaka.Size = new System.Drawing.Size(100, 20);
-            this.m_plaka.TabIndex = 1;
+            this.m_plaka.TabIndex = 2;
             // 
             // m_ad
             // 
@@ -618,6 +618,7 @@ namespace Anka_Electronic_Sales_Managment
             this.m_ad.Name = "m_ad";
             this.m_ad.Size = new System.Drawing.Size(100, 20);
             this.m_ad.TabIndex = 0;
+            this.m_ad.TabIndexChanged += new System.EventHandler(this.m_ad_TabIndexChanged);
             this.m_ad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.m_ad_KeyPress);
             // 
             // tab_control
@@ -630,7 +631,7 @@ namespace Anka_Electronic_Sales_Managment
             this.tab_control.Name = "tab_control";
             this.tab_control.SelectedIndex = 0;
             this.tab_control.Size = new System.Drawing.Size(1264, 611);
-            this.tab_control.TabIndex = 2;
+            this.tab_control.TabIndex = 16;
             // 
             // tabPage2
             // 
@@ -716,7 +717,7 @@ namespace Anka_Electronic_Sales_Managment
             this.arama_but.Location = new System.Drawing.Point(173, 110);
             this.arama_but.Name = "arama_but";
             this.arama_but.Size = new System.Drawing.Size(198, 56);
-            this.arama_but.TabIndex = 3;
+            this.arama_but.TabIndex = 2;
             this.arama_but.Text = "ARA";
             this.arama_but.UseVisualStyleBackColor = true;
             this.arama_but.Click += new System.EventHandler(this.arama_but_Click_1);
@@ -726,14 +727,14 @@ namespace Anka_Electronic_Sales_Managment
             this.a_sasino.Location = new System.Drawing.Point(173, 84);
             this.a_sasino.Name = "a_sasino";
             this.a_sasino.Size = new System.Drawing.Size(198, 20);
-            this.a_sasino.TabIndex = 2;
+            this.a_sasino.TabIndex = 1;
             // 
             // a_serino
             // 
             this.a_serino.Location = new System.Drawing.Point(173, 58);
             this.a_serino.Name = "a_serino";
             this.a_serino.Size = new System.Drawing.Size(198, 20);
-            this.a_serino.TabIndex = 1;
+            this.a_serino.TabIndex = 0;
             // 
             // arama_tablo
             // 
@@ -745,7 +746,7 @@ namespace Anka_Electronic_Sales_Managment
             this.arama_tablo.Location = new System.Drawing.Point(403, 14);
             this.arama_tablo.Name = "arama_tablo";
             this.arama_tablo.Size = new System.Drawing.Size(822, 335);
-            this.arama_tablo.TabIndex = 0;
+            this.arama_tablo.TabIndex = 3;
             // 
             // panel3
             // 
@@ -863,6 +864,7 @@ namespace Anka_Electronic_Sales_Managment
             this.Text = "Anka Elektronik Müşteri ve Ürün İzleme Programı";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.u_table)).EndInit();
