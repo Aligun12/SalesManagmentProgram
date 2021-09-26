@@ -1,21 +1,461 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" type="text/css" href="css/Fatura.css"> </head>
+    <head><style>
+        *{
+            margin: 0px;
+            padding: 0px;
+          }
+           
+           body
+           {
+              background-color: rgb(255, 255, 255);
+           }
+           #cizgi2 {
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            left: 0px;
+            top: 50px;
+            width: 2775px;
+            height: 30px;
+            z-index: 5;
+            }
+            
+            #logo {
+            position: absolute;
+            left: 0px;
+            top: 80px;
+            width: 600px;
+            height: 600px;
+            z-index: 3;  
+            }
+          
+            #istakipformu{
+              
+              font-size: 90px;
+              font-family: "Arial Black";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 850px;
+              top: 300px;
+              z-index: 8;  
+            }
+            #musteribaslik {
+              font-size: 70px;
+              font-family: "Arial Black";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 150px;
+              top: 800px;
+              z-index: 12;
+            }
+            #tarih{
+              
+              font-size: 70px;
+              font-family: "Arial Black";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 2000px;
+              top: 800px;
+              z-index: 9;
+            }
+            #tarih2 {
+              font-size: 70px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              font-style: italic;
+              text-align: left;
+              position: absolute;
+              left: 2290px;
+              top: 800px;
+              z-index: 10;
+            }
+            #aeposta{
+              
+              font-size: 45.2px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              font-style: italic;
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 1930px;
+              top: 250px;
+              z-index: 11;
+            }
+            #atelno{
+              
+              font-size: 45.2px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              font-style: italic;
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 1930px;
+              top: 170px;
+              z-index: 11;
+            }
+            #adres{
+              
+              font-size: 45.2px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              font-style: italic;
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 1930px;
+              top: 330px;
+              z-index: 11;
+            }
+            #cizgi {
+              background-color: rgb(0, 0, 0);
+              position: absolute;
+              left: 0px;
+              top: 650px;
+              width: 2775px;
+              height: 30px;
+              z-index: 6;
+            }
+            #fligran {
+              position: absolute;
+              left: 15px;
+              top: 700px;
+              width: 2700px;
+              height: 3000px;
+              z-index: 10;
+            }
+            #cizgi3 {
+              background-color: rgb(0, 0, 0);
+              position: absolute;
+              left: 0px;
+              top: 3750px;
+              width: 2775px;
+              height: 30px;
+              z-index: 7;
+            }
+            #nsurname{
+                font-size: 52.12px;
+                font-family: "Arial";
+                font-weight: bold;
+                color: rgb(0, 0, 0);
+                line-height: 1.2;
+                text-align: left;
+                position: absolute;
+                left: 500px;
+                top: 1000px;
+                z-index: 13;
+            }
+            #isim{
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 800px;
+              top: 1000px;
+              z-index: 14;
+            }
+            
+            #telno{
+              font-size: 52.12px;
+              font-family: "Arial";
+              font-weight: bold;
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 500px;
+              top: 1150px;
+              z-index: 15;
+            }
+            #telno2 {
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 950px;
+              top: 1150px;
+              z-index: 16;
+            }
+            #plaka {
+              font-size: 52.12px;
+              font-family: "Arial";
+              font-weight: bold;
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 500px;
+              top: 1300px;
+              z-index: 15;
+            }
+            #plaka2{
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 830px;
+              top: 1300px;
+              z-index: 18;
+            }
+          
+            #aracsasino {
+              font-size: 52.12px;
+              font-family: "Arial";
+              font-weight: bold;
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 500px;
+              top: 1450px;
+              z-index: 19;
+            }
+            #aracsasino2 {
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 850px;
+              top: 1450px;
+              z-index: 20;
+            }
+            #eposta{
+              font-size: 52.12px;
+              font-family: "Arial";
+              font-weight: bold;
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 500px;
+              top: 1600px;
+              z-index: 20;
+            }
+            #eposta2{
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 770px;
+              top: 1600px;
+              z-index: 21;
+            }
+            #urunbaslik {
+              font-size: 70px;
+              font-family: "Arial Black";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 150px;
+              top: 1800px;
+              z-index: 22;
+            }
+            #urunserino{
+              font-size: 52.12px;
+              font-family: "Arial";
+              font-weight: bold;
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 500px;
+              top: 2000px;
+              z-index: 23;
+            }
+            #urunserino2{
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 1000px;
+              top: 2000px;
+              z-index: 24;
+            }
+            #urunmodeli {
+              font-size: 52.12px;
+              font-family: "Arial";
+              font-weight: bold;
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 500px;
+              top: 2150px;
+              z-index: 25;
+            }
+            #urunmodeli2{
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 830px;
+              top: 2150px;
+              z-index: 26;
+            }
+            #garanti {
+              font-size: 52.12px;
+              font-family: "Arial";
+              font-weight: bold;
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 500px;
+              top: 2300px;
+              z-index: 27;
+            }
+            #garanti2 {
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 880px;
+              top: 2300px;
+              z-index: 28;
+            }
+            #urunadet {
+              font-size: 52.12px;
+              font-family: "Arial";
+              font-weight: bold;
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 500px;
+              top: 2450px;
+              z-index: 29;
+            }
+            #urunadet2 {
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 790px;
+              top: 2450px;
+              z-index: 30;
+            }
+            #notlar{
+              font-size: 52.12px;
+              font-family: "Arial";
+              font-weight: bold;
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 500px;
+              top: 2600px;
+              z-index: 31;
+            }
+            #notlar2 {
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 750px;
+              top: 2580px;
+              z-index: 32;
+            }
+            #gonderen {
+              font-size: 65px;
+              font-family: "Arial Black";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 300px;
+              top: 3200px;
+              z-index: 33;
+            }
+            #tutar {
+              font-size: 65px;
+              font-family: "Arial Black";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 2000px;
+              top: 3200px;
+              z-index: 34;
+            }
+            #gonderenkisi {
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: left;
+              position: absolute;
+              left: 300px;
+              top: 3300px;
+              z-index: 35;
+            }
+            #tutar2{
+              font-size: 52.12px;
+              font-family: "Arial";
+              color: rgb(0, 0, 0);
+              line-height: 1.2;
+              text-align: center;
+              position: absolute;
+              left: 2000px;
+              top: 3300px;
+              z-index: 36;
+            }
+                  
+                        
+                
+            
+            
+            
+            
+            
+                        
+          </style>
+    </head>
     <body>
         <div class="baslik">
-            <img id=cizgi2 src="cizgi2.png" alt="">
-            <img id=logo src="img/f_logo.png" alt="">
+            <img id=cizgi2 src={{cizgi2}} alt="">
+            <img id=logo src={{logo}} alt="">
             <p id = istakipformu>İŞ TAKİP FORMU</p>
             <p id=tarih>TARİH : </p>
-            <p id=tarih2>{{dateFormat DateDelivered "dd/MM/yyyy"}}</p>
-            <p id=adres>ADRES : Erler mahallesi<br>
-                Eskişehir Yolu, 2717.Sok<br>
+            <p id=tarih2>{{tarih}}</p>
+            <p id=atelno>Telefon : +90 0312 909 34 12</p>
+            <p id=aeposta>E-Posta : teknik@ayankaelektronik.com</p>
+            <p id=adres>ADRES : Erler mahallesi
+                Eskişehir Yolu,<br> 2717.Sok
                 No:6/A, Anka Oto Elektronik,<br>
                 06790 Etimesgut / ANKARA</p>
-            <img id=cizgi src="img/cizgi.png" alt="">
+            <img id=cizgi src={{cizgi}} alt="">
         </div>
         <div class="bilgiler">
-            <img id=fligran src="img/fligran.png" alt="">
+            <img id=fligran src={{fligran}} alt="">
             <div>
                 <p id=musteribaslik>MÜŞTERİ BİLGİLERİ</p>
                 <p id=nsurname>Adı Soyadı :</p>
@@ -53,7 +493,7 @@
             <p id=tutar>TUTAR</p>
             <p id=gonderenkisi>{{gonderenk}}</p>
             <p id=tutar2>{{toplamtutar}}</p>
-            <img id=cizgi3 src="img/cizgi3" alt="">
+            <img id=cizgi3 src={{cizgi3}} alt="">
         </div>
     </body>
 </html>
